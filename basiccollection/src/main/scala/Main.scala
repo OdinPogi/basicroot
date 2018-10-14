@@ -120,14 +120,28 @@ pp(ls1.map( x=> mapHighOrder(x,x,(_*_))))
 pp("hello to upper using map fucntion is :" +  "hello".map(_.toUpper))
 
 
-//flatten 
+pp("flatten") 
 val ls2= List(4,5,6)
 
 pp(List(ls1, ls2))
 pp(List(ls1, ls2).flatten)
 
 pp(List(ls1, ls2).flatten.map(_*2))
-pp(List(ls1, ls2).flatMap(x => x * 2))
+//pp(List(ls1, ls2).flatMap(x => x * 2))
 
+pp(ls2.flatMap(x => List(x, x+1)))
+
+
+val f:(Int) => Int  = (x) => x *2
+
+
+ pp(ls1.map(_*2))
+ pp(ls1.map(x => f(x)))
+  pp(ls1.map(_ => f(_)))
+ pp(ls1.map(f(_)))
+
+ //filter
+
+ pp(ls1.filter(_ > 2))
 
 }
