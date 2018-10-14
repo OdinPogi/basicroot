@@ -1,6 +1,12 @@
 
 object Main extends App {
+// implicit approach
+val add = (x: Int, y: Int) => { x + y }
+val add = (x: Int, y: Int) => x + y
 
+// explicit approach
+val add: (Int, Int) => Int = (x,y) => { x + y }
+val add: (Int, Int) => Int = (x,y) => x + y
 
 println("\n--function--")
 def add(x:Int, y:Int) = x + y
