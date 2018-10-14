@@ -105,9 +105,29 @@ pp("\n--map and filter")
 
 pp(ls1.map(_*2))
 pp(ls1.map(x => x*2))
-
+//pp(map1.map(x => x*2))
+pp(map1.mapValues(x => "hi " + x))
 
 val mapHighOrder = (x : Int, y:Int, f:(Int,Int) => Int )  => f(x,y)
 
 pp(ls1.map( x=> mapHighOrder(x,2,(_*_))))
+pp(ls1.map( x=> mapHighOrder(x,2,(_+_))))
+pp(ls1.map( x=> mapHighOrder(x,2,(_-_))))
+pp(ls1.map( x=> mapHighOrder(x,x,(_*_))))
+
+
+//String map
+pp("hello to upper using map fucntion is :" +  "hello".map(_.toUpper))
+
+
+//flatten 
+val ls2= List(4,5,6)
+
+pp(List(ls1, ls2))
+pp(List(ls1, ls2).flatten)
+
+pp(List(ls1, ls2).flatten.map(_*2))
+pp(List(ls1, ls2).flatMap(x => x * 2))
+
+
 }
