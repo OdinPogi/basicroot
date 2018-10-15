@@ -1,7 +1,13 @@
-[0m[[0m[31merror[0m] [0m[0mC:\git\basicroot\basicclasses\src\main\scala\Main.scala:18:11: '.' expected but '=' found.[0m
-[0m[[0m[31merror[0m] [0m[0m	val this = (Unit) => {this("Odin", 7)}[0m
-[0m[[0m[31merror[0m] [0m[0m	         ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\git\basicroot\basicclasses\src\main\scala\Main.scala:21:1: identifier expected.[0m
-[0m[[0m[31merror[0m] [0m[0m	def this(name : String){[0m
-[0m[[0m[31merror[0m] [0m[0m^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\git\basicroot\basicclasses\src\main\scala\Rectangle.scala:4:31: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m	override val area: Double = (w,h) => { w * h }[0m
+[0m[[0m[31merror[0m] [0m[0m	                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\git\basicroot\basicclasses\src\main\scala\Rectangle.scala:4:33: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m	override val area: Double = (w,h) => { w * h }[0m
+[0m[[0m[31merror[0m] [0m[0m	                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\git\basicroot\basicclasses\src\main\scala\Triangle.scala:4:30: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m	override val area:Double = (w,h) => { w * h / 2 }[0m
+[0m[[0m[31merror[0m] [0m[0m	                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\git\basicroot\basicclasses\src\main\scala\Triangle.scala:4:32: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m	override val area:Double = (w,h) => { w * h / 2 }[0m
+[0m[[0m[31merror[0m] [0m[0m	                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
