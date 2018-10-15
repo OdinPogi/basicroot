@@ -144,4 +144,25 @@ val f:(Int) => Int  = (x) => x *2
 
  pp(ls1.filter(_ > 2))
 
+
+
+//Reduce, fold scan 
+
+pp("Reduce ") 
+println(ls1.reduceLeft( _ + _ ))
+println(ls1.reduceLeft( (x,y) => {
+	println(x + " + " + y)
+	x + y
+}))
+
+
+pp("Fold")
+
+println(ls1.foldLeft(100)(_ + _))
+
+pp("Scan")
+println(ls1.scanLeft(100)(_ + _))
+
+
+
 }
