@@ -4,12 +4,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\git\basicroot\basicclasses\target\scala-2.12\classes\User.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\git\basicroot\basicclasses\target\scala-2.12\classes\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	inheritance\AbstractPolygon$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\git\basicroot\basicclasses\target\scala-2.12\classes\inheritance\AbstractPolygon$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\git\basicroot\basicclasses\target\scala-2.12\classes\Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	inheritance\Polygon$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\git\basicroot\basicclasses\target\scala-2.12\classes\inheritance\Polygon$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	User2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\git\basicroot\basicclasses\target\scala-2.12\classes\User2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	inheritance\Shape.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\git\basicroot\basicclasses\target\scala-2.12\classes\inheritance\Shape.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	inheritance\Polygon.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\git\basicroot\basicclasses\target\scala-2.12\classes\inheritance\Polygon.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	inheritance\Triangle.class[0m
@@ -20,4 +24,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\git\basicroot\basicclasses\target\scala-2.12\classes\inheritance\Rectangle.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\git\basicroot\basicclasses\target\scala-2.12\classes\Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	inheritance\AbstractPolygon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\git\basicroot\basicclasses\target\scala-2.12\classes\inheritance\AbstractPolygon.class[0m
 [0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

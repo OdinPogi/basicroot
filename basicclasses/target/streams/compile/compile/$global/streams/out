@@ -1,13 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\git\basicroot\basicclasses\src\main\scala\Rectangle.scala:4:31: missing parameter type[0m
-[0m[[0m[31merror[0m] [0m[0m	override val area: Double = (w,h) => { w * h }[0m
-[0m[[0m[31merror[0m] [0m[0m	                             ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\git\basicroot\basicclasses\src\main\scala\Rectangle.scala:4:33: missing parameter type[0m
-[0m[[0m[31merror[0m] [0m[0m	override val area: Double = (w,h) => { w * h }[0m
-[0m[[0m[31merror[0m] [0m[0m	                               ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\git\basicroot\basicclasses\src\main\scala\Triangle.scala:4:30: missing parameter type[0m
-[0m[[0m[31merror[0m] [0m[0m	override val area:Double = (w,h) => { w * h / 2 }[0m
-[0m[[0m[31merror[0m] [0m[0m	                            ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\git\basicroot\basicclasses\src\main\scala\Triangle.scala:4:32: missing parameter type[0m
-[0m[[0m[31merror[0m] [0m[0m	override val area:Double = (w,h) => { w * h / 2 }[0m
-[0m[[0m[31merror[0m] [0m[0m	                              ^[0m
-[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\git\basicroot\basicclasses\src\main\scala\Rectangle.scala:2:7: class Rectangle needs to be abstract, since method color in trait Shape of type => String is not defined[0m
+[0m[[0m[31merror[0m] [0m[0mclass Rectangle(w : Double, h : Double) extends Polygon with Shape[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
